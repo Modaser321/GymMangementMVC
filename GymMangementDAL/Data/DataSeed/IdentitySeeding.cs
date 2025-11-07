@@ -33,10 +33,10 @@ namespace GymMangementDAL.Data.DataSeed
 
                     var superAdmin = new ApplicationUser
                     {
-                        FirstName = "Younis",
-                        LastName = "Said",
-                        UserName = "YounisSaid",
-                        Email = "YounisTest@gmail.com",
+                        FirstName = "Ahmed",
+                        LastName = "Modaser",
+                        UserName = "Ahmedmodaser",
+                        Email = "AhmedTest@gmail.com",
                         PhoneNumber = "1234567890"
                     };
                     await userManager.CreateAsync(superAdmin, "P@ssw0rd");
